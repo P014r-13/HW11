@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.form_container .btn{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.form_container form input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100vw;
+    max-width: 250px;
+}
+.form_container form{
+    margin-right: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+.container .Tasks{
+    background-color: rgb(158, 195, 183);
+    height: fit-content;
+    width: 100%;
+
+}
+.container .title{
+    text-align: center;
+    padding: 30px;
+}
+.container .Doing{
+    background-color: rgb(225, 233, 76);
+    height: fit-content;
+    width: 100%;
+
+}
+.container .Completed{
+    background-color: rgb(60, 101, 47);
+    height: fit-content;
+    width: 100%;
+}
+.container .task_container{
+    padding: 5px;
+    height: 150px;
+    width: 200px;
+    background-color: white;
+    margin:10px
+}
+.container .tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container  .task_container .remove_btn{
+    padding: 5px;
+    background-color: rgb(158, 195, 183);
+    border: none;
+    margin: 5px 5px 5px 0px;
+}
+.container .task_container .btn_doing{
+    padding: 5px;
+    background-color: rgb(158, 195, 183);
+    border: none;
+    margin: 5px;
+}
+.container .task_container .btn_completed{
+    padding: 5px;
+    background-color: rgb(158, 195, 183);
+    border: none;
+    margin: 5px;
+}
